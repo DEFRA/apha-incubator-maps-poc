@@ -14,7 +14,7 @@
     {
       "type": "Feature",
       "properties": { "name": "Berlin" },
-      "geometry": { "type": "Point", "coordinates": [13.4050, 52.5200] }
+      "geometry": { "type": "Point", "coordinates": [13.405, 52.52] }
     },
     {
       "type": "Feature",

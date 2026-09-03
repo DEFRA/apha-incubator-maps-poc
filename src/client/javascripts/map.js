@@ -31,7 +31,9 @@ const datasetsPlugin = createDatasetsPlugin({
 const interactPlugin = createInteractPlugin({
   interactionModes: ['selectFeature'],
   deselectOnClickOutside: true,
-  layers: [{ layerId: CITIES_LAYER_ID, idProperty: 'name', labelProperty: 'name' }]
+  layers: [
+    { layerId: CITIES_LAYER_ID, idProperty: 'name', labelProperty: 'name' }
+  ]
 })
 
 const interactiveMap = new InteractiveMap('map', {

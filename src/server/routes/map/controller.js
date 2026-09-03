@@ -6,7 +6,6 @@ export const mapController = {
     return h.view('map/index', {
       pageTitle: 'Interactive Map',
       heading: 'Interactive Map'
-      
     })
   }
 }

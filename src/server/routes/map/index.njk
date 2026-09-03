@@ -1,0 +1,28 @@
+{% extends 'layouts/page.njk' %}
+
+{% block content %}
+  {{ appHeading({
+    text: heading,
+    caption: "apha-incubator-maps-poc"
+  }) }}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-full">
+      <style>
+        #map {
+          width: 100%;
+          height: 650px;
+          border: 1px solid #b1b4b6;
+        }
+      </style>
+      <div data-testid="interactive-map">
+        <div id="map"></div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block bodyEnd %}
+  {{ super() }}
+  <script type="module" src="{{ getAssetPath('src/client/javascripts/map.js') }}"></script>
+{% endblock %}

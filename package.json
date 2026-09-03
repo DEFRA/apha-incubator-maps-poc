@@ -36,10 +36,12 @@
   "author": "Defra DDTS",
   "license": "OGL-UK-3.0",
   "dependencies": {
+    "@arcgis/core": "5.1.19",
     "@defra/cdp-auditing": "0.6.1",
     "@defra/cdp-metrics": "0.6.0",
     "@defra/hapi-secure-context": "0.4.0",
     "@defra/hapi-tracing": "1.30.0",
+    "@defra/interactive-map": "0.0.40-alpha",
     "@elastic/ecs-pino-format": "1.5.0",
     "@hapi/catbox-memory": "6.0.2",
     "@hapi/catbox-redis": "7.0.2",
@@ -59,6 +61,7 @@
     "hapi-pulse": "3.0.0",
     "ioredis": "5.11.1",
     "lodash": "4.18.1",
+    "maplibre-gl": "6.4.1",
     "nunjucks": "3.2.4",
     "pino": "10.3.1"
   },
